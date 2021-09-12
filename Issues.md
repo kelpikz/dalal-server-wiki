@@ -1,0 +1,1 @@
+- Should run `./build_proto.sh` before go get in `./docker_build.sh`
