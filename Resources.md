@@ -1,3 +1,8 @@
+
+Welcome to Resources wiki!
+
+This wiki contains some important topics and links for resources to learn about the stuff used in Dalal Street Project.
+
 ## Concurrency Control
 - Locks
 - Semaphores
@@ -39,3 +44,16 @@
 - Mortgage
 - Stock worth
 - Net worth
+
+# Quick Links
+
+
+## Blog Series for Golang and gRPC : 
+- Blog ([Link](https://medium.com/rungo)).
+## gRPC : 
+- gRPC ([Link](https://grpc.io/)).
+- REST vs RPC ([Link](https://cloud.google.com/blog/products/application-development/rest-vs-rpc-what-problems-are-you-trying-to-solve-with-your-apis)).
+
+## Protocl Buffers : 
+- Protocol Buffers ([Link](https://developers.google.com/protocol-buffers)).
+

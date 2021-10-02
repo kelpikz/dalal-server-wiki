@@ -1,7 +1,24 @@
-Welcome to the dalal-street-server wiki!
+Welcome to Dalal Street wiki!
 
-Checkout deployment docs [here](https://github.com/thakkarparth007/dalal-street-server/wiki/Deployment-Docs).
+This wiki is for developers to get onboarded to Dalal Street Project. This wiki covers everthing related to the Dalal Street Project like Documentation for each repository , game logic , Resources related to them , contribution guidelines .
 
-2018's logs have been downloaded by [thakkarparth007](https://github.com/thakkarparth007) and [coderick14](https://github.com/coderick14). Process those before the next year to figure out what changes need to be made.
+Refer [Resources](https://github.com/delta/dalal-street-server/wiki/Resources) for important topics and links to learn more about technologies we use and stock market stuff related to Dalal Street Project. 
 
-The database dump for 2018 has been downloaded by [coderick14](https://github.com/coderick14) and has been mailed to [thakkarparth007](https://github.com/thakkarparth007) and [PaiAkshay998](https://github.com/paiakshay998).
+## Server Docs
+
+Refer [link](https://github.com/delta/dalal-street-server/wiki/Server-Docs).
+
+## Frontend Docs
+
+Refer [link](https://github.com/delta/dalal-street-server/wiki/Frontend-Docs).
+
+## Proto Docs
+
+Refer [Link](https://github.com/delta/dalal-street-server/wiki/Proto-Docs)
+## Bots Docs
+
+Refer [Link](https://github.com/delta/dalal-street-server/wiki/Bots-Docs)
+
+## Contribution Guidelines
+
+Refer [Link](https://github.com/delta/dalal-street-server/wiki/Contribution-Guidelines).
