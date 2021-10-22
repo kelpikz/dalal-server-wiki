@@ -16,7 +16,7 @@ Create a directory `go/` wherever you want and setup $GOPATH and $GOBIN paths in
 
 ``` bash
 export PATH=$PATH:`$OTHER_STUFF`:$GOBIN
-export GOPATH=/home/$YOUR_USERNAME/$PATH_FROM_USERHOME/go
+export GOPATH=$HOME/go
 export GOBIN=$GOPATH/bin
 
 ```
