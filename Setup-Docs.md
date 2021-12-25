@@ -44,7 +44,7 @@ go get github.com/delta/dalal-street-server
 
 Binary executables
 ``` bash
-go get -tags 'mysql' -u github.com/golang-migrate/migrate/v4/cmd/migrate/
+go install -tags 'mysql' github.com/golang-migrate/migrate/v4/cmd/migrate@latest
 go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
 go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.1
 ```
