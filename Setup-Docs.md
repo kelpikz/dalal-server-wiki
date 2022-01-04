@@ -75,3 +75,14 @@ migrate -path "./migrations" -database "mysql://root:YOUR_MYSQL_PASSWORD@/dalals
 ```
 migrate create -ext sql -dir ./migrations MIGRATION_NAME
 ```
+
+## TLS keys
+To create TLS keys for docker
+```bash
+mkdir tls_keys/docker/
+cd tls_keys/docker/
+openssl req -x509 -out server.crt -keyout server.key   -newkey rsa:2048 -nodes -sha256   -subj '/CN=localhost' -extensions EXT -config <( \
+   printf "[dn]\nCN=localhost\n[req]\ndistinguished_name = dn\n[EXT]\nsubjectAltName=DNS:localhost\nkeyUsage=digitalSignature\nextendedKeyUsage=serverAuth")
+cd ../../
+
+```
